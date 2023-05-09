@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/186e38f7e9.js" crossorigin="anonymous"></script>
+</head>
+<!--- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch --->
+<body class="bg-white">
+
+  <!--navbar start-->
+  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+      <div class="px-4">
+        <a href="#home" class="text-primary font-bold text-lg block py-6
+        ">Arya Dwi Pradana</a>
+      </div>
+      <div class="flex items-center px-4">
+        <button id="hamburger" name="hamburger" 
+        type="button" class="block absolute right-4 lg:hidden "> 
+          <span class="hamburger-line transition duration-300 origin-top-left"></span>
+          <span class="hamburger-line transition duration-300"></span>
+          <span class="hamburger-line transition duration-300 origin-bottom-left "></span>
+        </button>
+        <nav id="nav-menu" class="hidden absolute font-semibold py-5 bg-white shadow-lg rounded-lg 
+          max-w-[250px] w-full right-4 top-full lg:block lg:static
+          lg:shadow-none lg:border-none lg:bg-transparent lg:max-w-full ">
+          <ul class="block lg:flex ">
+            <li class="group">
+              <a href="#home" class="text-base text-primary py-2 mx-8 flex
+              group-hover:text-slate-300">Beranda</a>
+            </li>
+            <li class="group">
+              <a href="#portofolio" class="text-base text-primary py-2 mx-8 flex
+              group-hover:text-slate-300">Portofolio</a>
+            </li>
+            <li class="group">
+              <a href="#skill" class="text-base text-primary py-2 mx-8 flex
+              group-hover:text-slate-300">Skill</a>
+            </li>
+            <li class="group">
+              <a href="#contact" class="text-base text-primary py-2 mx-8 flex
+              group-hover:text-slate-300">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    </div>
+</header>
+  <!--navbar end-->
+
+<!--hero section start-->
+   <section id="home" class="pt-24 pb-8">
+    <div class="container min-h-fit">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+                <h1 class="text-base font-semibold text-primary mb-2 md:text-3xl lg:text-4xl">hai semua ✋, nama saya
+                  <p>  <span class="font-bold text-2xl text-black "> Arya Dwi Pradana</h1></span></p>
+                  <div class="container-typescript"></div>
+                    <h1 class="md:text-2xl lg:text-4xl">Hi I'm  <span class="auto-type font-bold text-primary"> </span></h1>
+                  <h2 class="font-semibold mb-10 mt-2 md:text-2xl">Salam kenal semuanya😊</h2> 
+                    <a href="" class="text-base font-bold bg-primary py-3 ml-3
+                     px-8 rounded-full my=2 text-white hover:shadow-lg hover:text-black ">
+                     Download CV</a>
+          </div>
+                     <div class="w-full self-end px-4 lg:w-1/2 ">
+                        <div class="relative mt-10 lg:right-0 lg:mt-0">
+                      <img src="dist/gambar/porto.png" alt="" class="max-w-full mx-auto" height="400px" width="400px"/>
+                        </div>
+          </div>
+          </div>
+  </div>
+   </section>
+   <!--hero section end-->
+
+   <!--about section start-->
+    <div class="container pt-24 pb-24">
+      
+        <span class="text-primary px-4"><h1 class="font-bold text-2xl md:text-4xl">Tentang saya</h1></span>
+        <div class="flex flex-wrap"><div class="w-full px-4 mb-10 lg:w-1/2">
+          <h2 class="font-bold text-2xl md:text-4xl">Saya adalah...</h2>
+          <h4 class="text-lg from-neutral-500">seorang lulusan baru dari jurusan Tekhnik Komputer dan Jaringan yang tertarik dibidang IT berbasis komputer dan jaringan.</h4>
+        </div>
+        <div class="w-full px-4 mb-10 lg:w-1/2">
+          <h2 class="font-bold text-2xl md:text-4xl">Ilmu & Pengalaman</h2>
+          <h4 class="text-lg from-neutral-500">Berbasis ilmu tentang Hardware, Software, Networking, Programming dan lain-lain yang didukung dengan pengalaman organisasi IT Support di Sekolah. </h4>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+   <!--about section end-->
+  <!--porto start-->
+   <section id="portofolio" class="pt-8 pb-16 bg-slate-200 reveal">
+    <div class="container">
+      <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center">
+              <h1 class="font-bold text-2xl">PORTOFOLIO</h1>
+              <h2 class="font-bold text-slate-400">Coming soon project</h2>
+              <!--card-->
+              <div class="flex items-center justify-center min-h-fit container mx-auto">
+                <div class="grid">
+                    <div class="rounded-xl shadow-lg">
+                        <div class="p-5 flex col">
+                            <div class="overflow-hidden">
+                              <img src="https://adijunior91.files.wordpress.com/2017/10/3f862-404-error.jpg" alt="" class="rounded-xl">
+                              <h4 class="font-bold font-xl mt-4">COMING SOON</h4>
+                              <h5 class="mt-2"></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+   </section>
+   <!--porto end-->
+   <!--skill section start-->
+   <section id="skill">
+    <div class="mx-auto my-auto justify-center text-center mb-4">
+      <h2 class="font-semibold text-2xl md:text-4xl">Skill</h2>
+      <h4 class="text-lg from-neutral-500">Skill yang saya tekuni dan saya pelajari hingga saat ini</h4>
+      </div>
+    <div class="flex items-center justify-center min-h-fit container mx-auto">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">  
+      <div class="rounded-xl shadow-xl">
+        <div class="p-5 flex flex-col">
+          <div class="rounded-xl overflow-hidden mx-auto text-center">
+            <i class="fa-sharp fa-solid fa-wrench text-6xl "></i>
+                <h4 class="font-bold mt-3">IT SKILL (Intermediate)</h4>
+                <h5>Pengetahuan tentang basic IT seperti komputer, jaringan, pemrograman dan lain-lain.</h5>  </div>
+            </div>
+    </div>
+    <div class="rounded-xl shadow-xl items-center justify-center">
+      <div class="p-5 flex flex-col">
+        <div class="rounded-xl overflow-hidden mx-auto text-center">
+          <i class="fa-solid fa-keyboard text-6xl"></i>
+              <h4 class="font-bold ">PROGRAMMING(Beginner)</h4>
+              <h5>Pengetahuan tentang bahasa pemrograman seperti HTML5, CSS3, JavaScript(Basic), PHP Native(Basic) serta penggunaan framework seperti Laravel(Basic), Tailwind(Basic), CodeIgniter(Basic) dan ReactJS(Basic).</h5> </div>
+          </div>
+  </div>
+<div class="rounded-xl shadow-xl items-center justify-center">
+  <div class="p-5 flex flex-col">
+    <div class="rounded-xl overflow-hidden mx-auto text-center">
+      <i class="fa-brands fa-microsoft text-6xl"></i>
+          <h4 class="font-bold">SOFTWARE (Average)</h4>
+          <h5>Pengetahuan tentang penggunaan software-software seperti Ms.Office, Adobe Family, Internet Browser serta aplikasi pendukung kegunaan IT seperti Text editor, Cisco dan sejenisnya.</h5></div>
+      </div>
+</div>
+<div class="rounded-xl shadow-xl items-center justify-center">
+  <div class="p-5 flex flex-col">
+    <div class="rounded-xl overflow-hidden mx-auto text-center">
+      <i class="fa-solid fa-microchip text-6xl"></i>
+          <h4 class="font-bold">HARDWARE(Intermediate)</h4>
+          <h5>Pengetahuan tentang komponen-komponen seperti komponen komputer, jaringan, handphone dan komponen elektronik lainya.</h5>
+        </div>
+      </div>
+</div>
+<div class="rounded-xl shadow-xl items-center justify-center">
+  <div class="p-5 flex flex-col">
+    <div class="rounded-xl overflow-hidden mx-auto text-center">
+      <i class="fa-solid fa-server text-6xl"></i>
+          <h4 class="font-bold">MAINTENANCE & REPAIR</h4>
+          <h5>Pengetahuan dan praktek tentang memelihara dan memperbaiki sebuah hardware dan software.</h5>
+        </div>
+      </div>
+</div>
+<div class="rounded-xl shadow-xl items-center justify-center">
+  <div class="p-5 flex flex-col">
+    <div class="rounded-xl overflow-hidden mx-auto text-center">
+      <i class="fa-solid fa-file-pen text-6xl"></i>
+                <h4 class="font-bold">EDITING SKILL (Beginner)</h4>
+          <h5>Pengetahuan tentang basic skill editing ataupun desain dan sejenisnya.</h5>
+        </div>
+      </div>
+</div>
+</div>
+  </div>
+   </section>
+    <!--skill section end-->
+
+<!--Contact section start-->
+<section id="contact">
+<div class="flex mx-auto text-center min-h-fit mb-8 gap-4">
+  <div class="container">
+<h2 class="font-bold text-2xl  mt-10">Kenal saya lebih dekat di :</h2>
+ <a href="https://www.instagram.com/arya_dwipr/" class="text-6xl md:text-8xl"><i class="fa-brands fa-instagram" style=" background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+background-clip: text;
+background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;"></i></a>
+          <a href="https://www.facebook.com/aryadwi.pradana.90/" class="text-6xl md:text-8xl lg:text-12xl"><i class="fa-brands fa-facebook" style="color: #3b5998;"></i></a>
+          <!--<a href="" class="text-6xl md:text-8xl lg:text-12xl"><i class="fa-brands fa-square-twitter"style="color: #00acee;"></i></a>-->
+          <!--<a href="" class="text-6xl md:text-8xl lg:text-12xl"><i class="fa-brands fa-linkedin" style="color: #0e76a8;"></i></a>-->
+          <a href="https://wa.me/6282114943996" class="text-6xl md:text-8xl lg:text-12xl"><i class="fa-brands fa-whatsapp" style="color: #25d366;"></i></a>
+</div>
+        </div>
+</div>
+</section>
+<!--Contact section end-->
+
+<!--footer start-->
+<footer class="reveal">
+  <div class="p-10 bg-slate-800 text-gray-600">
+      <div class="max-w-7xl mx-auto py-8 mt-1">
+          <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+           
+           
+           <h4 class="mb-5 mx-auto text-center mt-5"><span class="font-bold text-white text-2xl">Hubungi Saya</span><br>
+          aryadwiprad@gmail.com <br>
+        +6282114943996 <br>
+        Banten, Kab.Tangerang, Indonesia</h4>
+           <div class="mb-5 mx-auto text-center mt-5 ">
+            <h4><span class="font-bold text-2xl text-white"> Hobi :</span> <br>Gaming <br> Programming <br>Olahraga</h4>
+          </div>
+            <div class="mb-5 mx-auto gap-4 mt-5 text-slate-600 text-center">
+              <h1 class="font-bold text-2xl"><span class="text-white"> Useful Link</span></h1>
+            <ul><li><a href="#home"class= "hover:text-white">Home</a></li></ul>
+            <ul><li><a href="#portofolio" class= "hover:text-white">Portofolio</a></li></ul>
+              <ul><li><a href="#skill" class= "hover:text-white">Skill</a></li></ul>
+                <ul><li> <a href="#contact" class= "hover:text-slate-50">Contact</a></li></ul>
+         
+          </div>
+        </div>
+          
+         
+        </div>
+        <h1 class="text-white mx-auto text-center text-2xl font-bold mt-5">THANK YOU😀</h1>
+       </div>
+      </div>
+    </footer>
+            <!--footer end-->
+    <script src="dist/js/script.js"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!--script 1-->
+       <script>
+        var typed = new Typed(".auto-type", {
+            strings: [ " Programmer", " IT Specialist", " Traveller"],
+            typeSpeed:80,
+            backSpeed:100,
+            loop : true
+        })
+       ;
+    </script>
+<!--script 1-->
+</body>
+
+</html>
